@@ -506,12 +506,12 @@
 			if(this.container != 'body') top = top + document.body.scrollTop
 
 			//*****durban
-            if(isNaN(top)){
-                top = 0;
-            }
+      if(isNaN(top)){
+          top = 0;
+      }
 
-            top = parseInt(top) + 50;
-            //*****
+      top = parseInt(top) + 100;
+      //*****
             
 			this.picker.css({
 				top:    top,
